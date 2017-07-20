@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h2 #{courseTemp.course.title}
+    span.json 
+      a(href=`/courses/${courseTemp.course.abbr}.json`, target="_blank") JSON
+  
+  ul.course_information
+    li #{courseTemp.meta.author}
+    li #{courseTemp.meta.release_date}
+    li #{courseTemp.meta.version.release_number}
+  p #{courseTemp.course.description}
+  
+  ul
+    each goal in courseTemp.goals
+      li= goal.goal
+        ul
+          each crit in goal.criteria
+            li=crit.criterium
+          
+      

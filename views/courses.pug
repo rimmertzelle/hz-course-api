@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  each course in courses
+    .course_summary
+      h2 
+        a(href=`${course.self_uri}`) #{course.title}
+      p #{course.description}
+
+    

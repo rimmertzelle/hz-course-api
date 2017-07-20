@@ -1,0 +1,40 @@
+{
+  "meta":{
+    "author": "Rimmert Zelle",
+    "release_date":"augustus 2017",
+    "version": {
+      "release_number": 1,
+      "version_number": 0
+    }
+  },
+  "course":{
+    "title": "Infrastructuur Realiseren",
+    "level": 1,
+    "abbr": "ire1",
+    "description":"Een lokale infrastructuur inrichten, testen en beschikbaar stellen."
+  },
+  "goals":[
+    {
+      "id":1,
+      "goal": "Je kunt een simpele hosting omgeving opzetten ten behoeve van de applicatie.",
+      "criteria":[
+        {
+          "id":1,
+          "criterium":"Er is een kale versie van het gewenste OS geïnstalleerd."
+        },
+        {
+          "id":2,
+          "criterium":"Er is benodigde software op de server geïnstalleerd."
+        },
+        {
+          "id":3,
+          "criterium":"Er is benodigde configuratie om de applicatie te hosten ingesteld."
+        },
+        {
+          "id":4,
+          "criterium":"Er is een applicatie beschikbaar gesteld op de opgezette hosting omgeving."
+        }
+      ]
+    }
+  ]
+}

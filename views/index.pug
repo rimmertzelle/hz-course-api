@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  h1 Course API
+  p 
+    | Welkom bij de course API. Met deze API kun je de belangrijkste gegevens over de courses vinden.
+  p 
+    | De API bevindt zich momenteel nog in een Alpha fase. Mocht je opmerkingen hebben dan kun je ze rapporteren op de github pagina van de API.
+  table
+    thead
+      tr 
+        th Courses 
+    tbody
+      tr.api-slug
+        td 
+          !='/courses'  
+      tr
+        td Alle aanwezige courses kunnen in HTML worden bekeken.
+      tr.api-slug
+        td 
+          !='/courses.json'
+      tr 
+        td Alle aanwezige courses kunnen in JSON worden bekeken.
+      tr.api-slug
+        td 
+          !='/courses/:course'
+      tr 
+        td Een specifieke course wordt in HTML weergegeven.
+      tr.api-slug
+        td 
+          !='/courses/:course.json'
+      tr 
+        td Een specifieke course wordt in JSON weergegeven.
+          
+          

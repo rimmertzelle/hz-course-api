@@ -1,0 +1,36 @@
+{
+  "meta":{
+    "author": "Rimmert Zelle",
+    "release_date":"augustus 2017",
+    "version": {
+      "release_number": 1,
+      "version_number": 0
+    }
+  },
+  "course":{
+    "title": "Infrastructuur Analyseren",
+    "level": 1,
+    "abbr": "iad1",
+    "description":"Een infrastructuur analyseren volgens een standaardmethode en op basis van gegeven functionele eisen"
+  },
+  "goals":[
+    {
+      "id":1,
+      "goal": "Je kunt trends binnen het domein van devOps voor een lokale infrastructuur van een bedrijf signaleren.",
+      "criteria":[
+        {
+          "id":1,
+          "criterium":"Er is beschrijving aanwezig van de trending organisatiewijzen (proces) binnen het domein van devOps."
+        },
+        {
+          "id":2,
+          "criterium":"Er is goed onderbouwd overzicht van de mogelijk tooling (producten) die het proces kunnen ondersteunen."
+        },
+        {
+          "id":3,
+          "criterium":"Er is een overzicht van wat voor problemen en uitdagingen de trends oplossen en wat het concreet voor de opdrachtgever kan opleveren."
+        }
+      ]
+    }
+  ]
+}
