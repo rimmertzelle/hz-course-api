@@ -1,15 +1,16 @@
 {
-  "name": "vagrant_data",
+  "name": "HZ course API",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple API to display course information from HZ HBO-ICT",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "rimmertzelle",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "pug": "2.0.0-beta6",
   },
   "devDependencies": {
     "webpack": "^3.3.0"
