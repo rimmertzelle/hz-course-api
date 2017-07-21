@@ -1,5 +1,5 @@
 {
-  "name": "HZ course API",
+  "name": "vagrant_data",
   "version": "1.0.0",
   "description": "Simple API to display course information from HZ HBO-ICT",
   "main": "app.js",
@@ -10,9 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
-    "pug": "2.0.0-beta6",
+    "pug": "2.0.0-beta6"
   },
   "devDependencies": {
+    "dotenv": "^4.0.0",
     "webpack": "^3.3.0"
   }
 }
